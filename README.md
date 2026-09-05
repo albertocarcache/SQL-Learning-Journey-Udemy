@@ -2,7 +2,7 @@
 
 Welcome to my learning repository! This project compiles the code, exercises, and programs developed throughout my journey of learning SQL from scratch, based on a specialized course on Udemy.
 
-The goal of this repository is to solidify the fundamentals of Python programming and serve as evidence of the practical application of programming logic and problem-solving skills.
+The goal of this repository is to consolidate SQL fundamentals and serve as evidence of the practical application of data analysis and business intelligence (BI) skills.
 
 ---
 
@@ -39,30 +39,27 @@ The following describes the three final exercises—created from scratch—that 
 
 ### 1. SQL Data Warehouse: (PyP1_User_Registration.py / PyP1_User_Registration2.py)
 ** Design and implement a full-scale SQL data warehouse from scratch, just like you would in a real enterprise environment.**
-- Validation functions
-- Exception handling
-- Duplicate checking
-- Basic in-memory storage
 
 ### 2. SQL for Data Analysis (EDA) (PyP2_Expense_Tracking_System.py)
 **Use SQL to perform exploratory data analysis on real datasets, extracting insights and creating reports as a data analyst would.**
-- Working with lists and dictionaries
-- Validation
-- Exception handling
-- Aggregation logic
 
 ### 3. Advanced Query Optimization (PyP3_Mini_Banking_System.py / PyP3_Mini_Banking_System2.py)
 **Tackle complex query challenges and practice performance tuning on large datasets to simulate high-pressure, real-world scenarios.**
-- Account creation
-- Deposits
-- Withdrawals
-- Transaction tracking
-- Account summary display 
 
 ---
 
-## 🚀 How to Run the Files
+## 🚀 How to Execute the Script Queries
 
-To test any of the programs locally, make sure you have Python 3 installed and follow these steps:
+To test any of the queries locally, make sure you have SQL Server Management Studio 22 installed and follow these steps:
 
 - Download or clone the code: Click the green "Code" button on GitHub and copy the link to use `git clone [URL]` in your terminal, or download the ZIP file.
+
+- Once the files (datasets, docs, scripts) have been downloaded, activate the database as follows to review the query scripts:
+#1 Option: Creating a new Database
+In SQL Server Management Studio 22, create a new database by importing the following flat files from the datasets folder:
+- dim_custumers.csv
+- dim_products.csv
+- fact_sales.csv
+
+#2 Option: Restoring Database using file.bak
+- DataWarehouseAnalytics.bak
