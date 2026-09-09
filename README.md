@@ -39,6 +39,7 @@ The following describes the two final exercises—created from scratch—that in
 
 ### 1. SQL for Data Analysis (EDA) 
 **Use SQL to perform exploratory data analysis on real datasets, extracting insights and creating reports as a data analyst would.**
+  
   01_database_exploration
   02_dimensions_exploration
   03_date_range_exploration
@@ -48,6 +49,7 @@ The following describes the two final exercises—created from scratch—that in
 
 ### 2. Advanced Query Optimization
 **Tackle complex query challenges and practice performance tuning on large datasets to simulate high-pressure, real-world scenarios.**
+  
   07_change_over_time_analysis
   08_cumulative_analysis
   09_performance_analysis
