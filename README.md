@@ -40,28 +40,26 @@ The following describes the two final exercises—queries created from scratch�
 ### 1. SQL for Data Analysis (EDA) 
 **Use SQL to perform exploratory data analysis on real datasets, extracting insights and creating reports as a data analyst would.**
   
-  01_database_exploration
-  02_dimensions_exploration
-  03_date_range_exploration
-  04_measures_exploration
-  05_magnitude_analysis
-  06_ranking_analysis
+    01_database_exploration
+    02_dimensions_exploration
+    03_date_range_exploration
+    04_measures_exploration
+    05_magnitude_analysis
+    06_ranking_analysis
 
 ### 2. Advanced Query Optimization
 **Tackle complex query challenges and practice performance tuning on large datasets to simulate high-pressure, real-world scenarios.**
   
-  07_change_over_time_analysis
-  08_cumulative_analysis
-  09_performance_analysis
-  10_part_to_whole_analysis
-  11_data_segmentation
-  12_report_customers_view
-  13_report_products_view
-  14_report_customers_query
-  15_report_products_query
-
+    07_change_over_time_analysis
+    08_cumulative_analysis
+    09_performance_analysis
+    10_part_to_whole_analysis
+    11_data_segmentation
+    12_report_customers_view
+    13_report_products_view
+    14_report_customers_query
+    15_report_products_query
 ---
-
 ## 🚀 How to Execute the Script Queries
 
 To test any of the queries locally, make sure you have SQL Server Management Studio 22 installed and follow these steps:
@@ -70,24 +68,24 @@ To test any of the queries locally, make sure you have SQL Server Management Stu
 
 - Once the files (datasets, docs, scripts) have been downloaded, activate the database as follows to review the query scripts:
   
-#1 Option: Creating a new Database
-   In SQL Server Management Studio 22:
-   A) Create a new database.
-   B) Select the new database and execute a new query to create a schema named "gold".
-   C) Import the following flat files located in the datasets folder; make sure to select the "gold" table schema:
+#1 Option: Creating a new Database  
+
+    In SQL Server Management Studio 22:   
+    A) Create a new database.  
+    B) Select the new database and execute a new query to create a schema named "gold".  
+    C) Import the following flat files located in the datasets folder; make sure to select the "gold" table schema:
     - dim_custumers.csv
     - dim_products.csv
-    - fact_sales.csv
-   D) You can now test any of the queries located in the scripts folder (1. SQL for Data Analysis (EDA) / 2. Advanced Query Optimization).
+    - fact_sales.csv  
+    D) You can now test any of the queries located in the scripts folder (1. SQL for Data Analysis (EDA) / 2. Advanced Query Optimization).
 
-#2 Option: Restoring Database using file.bak
-   In SQL Server Management Studio 22:
-   A) Create a new database
-   B) Restore the DataWarehouseAnalytics.bak database, a file located in the datasets folder.
-   C) You can now test any of the queries located in the scripts folder (1. SQL for Data Analysis (EDA) / 2. Advanced Query Optimization).
+#2 Option: Restoring Database using file.bak  
 
+    In SQL Server Management Studio 22:  
+    A) Create a new database
+    B) Restore the DataWarehouseAnalytics.bak database, a file located in the datasets folder.
+    C) You can now test any of the queries located in the scripts folder (1. SQL for Data Analysis (EDA) / 2. Advanced Query Optimization).
 ---
-
 ## ✉️ Contact
 
 If you would like to connect with me or view more details about my professional profile:
