@@ -35,7 +35,7 @@ During this course, I acquired and practiced fundamental concepts of SQL, includ
 
 ## 🛠️ Final Projects
 
-The following describes the two final exercises—created from scratch—that integrate the knowledge acquired during the course:
+The following describes the two final exercises—queries created from scratch—that integrate the knowledge acquired during the course:
 
 ### 1. SQL for Data Analysis (EDA) 
 **Use SQL to perform exploratory data analysis on real datasets, extracting insights and creating reports as a data analyst would.**
